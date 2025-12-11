@@ -23,9 +23,10 @@ dist-ssr
 *.sln
 *.sw?
 
-# PDFs copiados para public
-public/Processos/*.pdf
-
-# PDFs na pasta Processos (arquivos grandes)
+# PDFs na pasta Processos raiz (arquivos grandes - não commitar)
 Processos/*.pdf
+
+# PDFs em public/Processos podem ser commitados se necessário para deploy
+# Descomente a linha abaixo se quiser ignorar PDFs em public/Processos também:
+# public/Processos/*.pdf
 

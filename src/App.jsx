@@ -2759,8 +2759,8 @@ function App() {
                   <div className="arvore-conteudo">
                     <strong>PASSO 7: Resultado</strong>
                     <ul>
-                      <li>Mostrar valores >= R$ 15.000 primeiro</li>
-                      <li>Se houver menos de 4 valores >= R$ 15.000, completar com valores abaixo</li>
+                      <li>Mostrar valores &gt;= R$ 15.000 primeiro</li>
+                      <li>Se houver menos de 4 valores &gt;= R$ 15.000, completar com valores abaixo</li>
                       <li>Exibir até 4 resultados</li>
                       <li>Destacar valores prioritários (borda vermelha)</li>
                     </ul>
@@ -2884,8 +2884,8 @@ function App() {
                   <div className="arvore-conteudo">
                     <strong>PASSO 7: Resultado</strong>
                     <ul>
-                      <li>Mostrar valores >= R$ 15.000 primeiro</li>
-                      <li>Se houver menos de 4 valores >= R$ 15.000, completar com valores abaixo</li>
+                      <li>Mostrar valores &gt;= R$ 15.000 primeiro</li>
+                      <li>Se houver menos de 4 valores &gt;= R$ 15.000, completar com valores abaixo</li>
                       <li>Exibir até 4 resultados</li>
                       <li>Destacar valores prioritários (borda vermelha)</li>
                     </ul>

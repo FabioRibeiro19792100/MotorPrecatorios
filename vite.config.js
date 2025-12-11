@@ -10,8 +10,8 @@ export default defineConfig({
     port: 5174,
     open: true,
     fs: {
-      // Permitir servir arquivos de fora do projeto
-      allow: ['..']
+      // Permitir servir arquivos de fora do projeto (apenas em desenvolvimento)
+      allow: process.env.NODE_ENV === 'development' ? ['..'] : []
     }
   },
   // Criar alias para a pasta Processos
